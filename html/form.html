@@ -1,50 +1,49 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Registration Form</title>
+    <title>BBD University Registration Form</title>
+    <link rel="stylesheet" href="form.css">
 </head>
 <body>
 
-    <h2>Student Registration Form</h2>
+    
+            
+            
+    <form>
+        <h2>BBD University Registration Form</h2>
+        <label for="fname" >First Name:</label>
+        <input type="text" id="fname" name="fname" required placeholder="Enter the first name">
+        
 
-    <form action="#" method="post">
+        <label for="lname">Last Name:</label>
+        <input type="text" id="lname" name="lname" required placeholder="Enter the last name">
+        
 
-        <label for="name">Name:</label>
-        <input type="text" id="name" name="name"><br><br>
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone" required placeholder="Enter the phone number">
+        
+
+        <label for="roll">Roll Number:</label>
+        <input type="text" id="roll" name="roll" required placeholder="Enter the roll number">
+        
+        
+        <label for="address">Address:</label><br>
+        <textarea id="address" name="address" rows="2" cols="30" required placeholder="enter the Address"></textarea>
+        
+
 
         <label for="email">Email:</label>
-        <input type="email" id="email" name="email"><br><br>
+        <input type="email" id="email" name="email" required placeholder="Enter the email">
+        
 
         <label for="password">Password:</label>
-        <input type="password" id="password" name="password"><br><br>
+        <input type="password" id="password" name="password" required placeholder="Enter the Password">
+        
 
-        <label>Gender:</label>
-        <input type="radio" name="gender" value="Male"> Male
-        <input type="radio" name="gender" value="Female"> Female
-        <br><br>
-
-        <label>Skills:</label>
-        <input type="checkbox" name="skill" value="HTML"> HTML
-        <input type="checkbox" name="skill" value="CSS"> CSS
-        <input type="checkbox" name="skill" value="JavaScript"> JavaScript
-        <br><br>
-
-        <label for="city">City:</label>
-        <select id="city" name="city">
-            <option>Lucknow</option>
-            <option>Delhi</option>
-            <option>Mumbai</option>
-        </select>
-        <br><br>
-
-        <label for="message">Message:</label><br>
-        <textarea id="message" name="message" rows="4" cols="30"></textarea>
-        <br><br>
-
-        <input type="submit" value="Submit">
-        <input type="reset" value="Reset">
-
+        <input type="submit" value="Submit" id="button">
+        <input type="reset" value="Reset" id="button">
     </form>
 
 </body>
 </html>
+

@@ -1,0 +1,27 @@
+form{
+    background-color: rgb(158, 188, 178);
+    border: solid black;
+    width: 45%;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 3px;
+}
+form:hover{
+    background-color: rgb(48, 48, 151);
+    color: chartreuse;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(94, 88, 99);
+}
+input{
+    width: 50%;
+}
+#button:hover{
+background-color: aqua;
+color: rgb(239, 38, 38);
+}
